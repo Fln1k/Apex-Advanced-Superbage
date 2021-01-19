@@ -1,12 +1,12 @@
-public without sharing class orderTriggerHelper{
-	/**
+public class orderHelper {
+/**
 	 * @name AfterUpdate
 	 * @description
 	 * @param List<Order> newList
 	 * @param List<Order> oldList
 	 * @return void
 	 **/
-	public static void AfterUpdate(List<Order> newList, List<Order> oldList){
+	public static void afterUpdate(List<Order> newList, List<Order> oldList){
 		Set<Id> activatedOrderIds = new Set<Id>();
 		for (Integer i = 0; i < newList.size(); i++){
 			if ((newList[i].Status == Constants.ACTIVATED_ORDER_STATUS && newList[i].ActivatedDate != null) && oldList[i].Status == Constants.DRAFT_ORDER_STATUS){
@@ -16,7 +16,7 @@ public without sharing class orderTriggerHelper{
 		RollUpOrderItems(activatedOrderIds);
 	}
 
-	public static void RollUpOrderItems(Set<Id> activatedOrderIds){
+	public static void rollUpOrderItems(Set<Id> activatedOrderIds){
 		Map<Id, Product2> productMap = new Map<Id, Product2>();
 		Set<Id> productIds = new Set<Id>();
 		List<OrderItem> items = [SELECT Id, Product2Id, Quantity
@@ -36,7 +36,7 @@ public without sharing class orderTriggerHelper{
                                             WITH SECURITY_ENFORCED
                                             GROUP BY Product2Id];
 		for (AggregateResult ar : groupedResults){
-			productMap.get((String)ar.get('Product2Id')).Quantity_Ordered__c = Integer.valueOf(ar.get('activatedQuantity'));
+			productMap.get((String)ar.get('Product2Id')).Quantity_Ordered__c = Double.valueOf(ar.get('activatedQuantity'));
 		}
 		if (productMap != null && productMap.size() > 0){
 			update productMap.values();
