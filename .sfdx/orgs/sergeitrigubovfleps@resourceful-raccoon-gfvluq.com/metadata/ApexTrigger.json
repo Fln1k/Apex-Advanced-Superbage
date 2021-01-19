@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "2021-01-19T08:45:37.000Z",
+      "fileName": "triggers/product2Trigger.trigger",
+      "fullName": "product2Trigger",
+      "id": "01q5g000000CmukAAC",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "2021-01-19T08:45:37.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "2021-01-19T08:45:37.000Z",
+      "fileName": "triggers/orderTrigger.trigger",
+      "fullName": "orderTrigger",
+      "id": "01q5g000000CmujAAC",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "2021-01-19T08:45:37.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}
