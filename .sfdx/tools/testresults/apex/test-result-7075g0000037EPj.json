@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jan 19 2021 3:55:17 PM",
+    "testExecutionTimeInMs": 271,
+    "testTotalTimeInMs": 271,
+    "commandTimeInMs": 1934,
+    "hostname": "https://resourceful-raccoon-gfvluq-dev-ed.my.salesforce.com",
+    "orgId": "00D5g000003d8oEEAQ",
+    "username": "sergeitrigubovfleps@resourceful-raccoon-gfvluq.com",
+    "testRunId": "7075g0000037EPj",
+    "userId": "0055g000003P1SDAA0"
+  },
+  "tests": [
+    {
+      "id": "07M5g000000Y16IEAS",
+      "queueItemId": "7095g00000005auAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g0000037EPjAAM",
+      "methodName": "Product2Extension_UnitTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004gxn3AAA",
+        "name": "Product2Tests",
+        "namespacePrefix": null,
+        "fullName": "Product2Tests"
+      },
+      "runTime": 58,
+      "testTimestamp": "2021-01-19T12:55:17.000+0000",
+      "fullName": "Product2Tests.Product2Extension_UnitTest"
+    },
+    {
+      "id": "07M5g000000Y16NEAS",
+      "queueItemId": "7095g00000005avAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g0000037EPjAAM",
+      "methodName": "testGetCurrentUser",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000005Is3VAAS",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 16,
+      "testTimestamp": "2021-01-19T12:55:17.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testGetCurrentUser"
+    },
+    {
+      "id": "07M5g000000Y16OEAS",
+      "queueItemId": "7095g00000005avAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g0000037EPjAAM",
+      "methodName": "testResetMyPassword",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000005Is3VAAS",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 197,
+      "testTimestamp": "2021-01-19T12:55:17.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testResetMyPassword"
+    }
+  ]
+}

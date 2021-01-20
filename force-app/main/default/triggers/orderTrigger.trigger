@@ -1,12 +1,9 @@
 /**
  * @name orderTrigger
  * @description
- **/
-
+**/
 trigger orderTrigger on Order (after update) {
-
-    if (Trigger.new != null) {
-      orderHelper.afterUpdate(Trigger.new, Trigger.old);
+    if(Trigger.New != null){
+        OrderHelper.AfterUpdate(Trigger.New, Trigger.old);
     }
-  
-  }
+}

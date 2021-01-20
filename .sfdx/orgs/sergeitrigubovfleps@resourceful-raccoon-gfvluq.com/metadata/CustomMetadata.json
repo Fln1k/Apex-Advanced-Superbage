@@ -1,0 +1,57 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Inventory_Setting.Entree.md",
+      "fullName": "Inventory_Setting.Entree",
+      "id": "m005g000000IvYDAA0",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    },
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Inventory_Setting.Side.md",
+      "fullName": "Inventory_Setting.Side",
+      "id": "m005g000000IvYIAA0",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    },
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Inventory_Setting.Beverage.md",
+      "fullName": "Inventory_Setting.Beverage",
+      "id": "m005g000000IvYSAA0",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    },
+    {
+      "createdById": "0055g000003P1SDAA0",
+      "createdByName": "Sergei Trigubov",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Inventory_Setting.Dessert.md",
+      "fullName": "Inventory_Setting.Dessert",
+      "id": "m005g000000IvYNAA0",
+      "lastModifiedById": "0055g000003P1SDAA0",
+      "lastModifiedByName": "Sergei Trigubov",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    }
+  ]
+}
